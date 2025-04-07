@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Mixer</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #121212;
+      color: white;
+      padding: 10px;
+    }
+    input[type="range"] {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h2>🎧 Ajusta tu mezcla</h2>
+  <label>Micrófono del streamer
+    <input type="range" id="micVolume" min="0" max="1" step="0.01" value="0.8">
+  </label>
+  <label>Audio del juego
+    <input type="range" id="gameVolume" min="0" max="1" step="0.01" value="0.5">
+  </label>
+  <button id="startBtn">Iniciar mezcla</button>
+
+  <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+  <script src="panel.js"></script>
+</body>
+</html>

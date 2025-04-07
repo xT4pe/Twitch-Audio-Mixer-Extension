@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
   "version": "0.0.1",
-  "author_name": "TuNombre",
+  "author_name": "xT4pe",
   "description": "Permite a los espectadores ajustar individualmente el volumen del micrófono y el juego del streamer.",
   "name": "Audio Mixer Viewer",
   "permissions": [],

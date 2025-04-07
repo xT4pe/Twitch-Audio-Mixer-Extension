@@ -10,7 +10,7 @@
     "height": 300
   },
   "whitelisted_panel_urls": [
-    "https://xt4pe.github.io/panel.html"
+    "https://xt4pe.github.io/Twitch-Audio-Mixer-Extension/panel.html"
   ],
   "supported_platforms": ["web"],
   "allow_vods": false
